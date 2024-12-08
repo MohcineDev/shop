@@ -1,0 +1,191 @@
+body {
+    background-color: #313131;
+    color: aliceblue;
+}
+
+form {
+    width: 500px;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+    font-family: arial;
+    margin: 20px 0;
+    font-weight: 600;
+    user-select: none;
+}
+
+textarea {
+    resize: none;
+    outline: none;
+}
+
+.text-center {
+    font-size: 1.4em;
+}
+
+form input {
+    margin: 5px 0;
+    outline: none;
+}
+
+.manageTable th {
+    background-color: #202020;
+    color: #fff;
+}
+
+.manageTable td {
+    color: #fff;
+    font-size: 16px;
+}
+
+.manageTable img {
+    width: 60px;
+    height: 60px;
+}
+
+
+/*dashboard*/
+
+.first h1 {
+    margin: 20px 0;
+}
+
+.first .stat {
+    background-color: #222;
+    border: 1px #555 solid;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.first .stat span {
+    display: block;
+    font-size: 2em;
+}
+
+.first .stat span a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.card {
+    color: #222;
+}
+
+.latest {
+    margin-top: 20px;
+}
+
+pre {
+    color: #fff;
+}
+
+.users-list {
+    margin-bottom: 0;
+}
+
+.users-list li {
+    padding: 5px;
+    overflow: hidden;
+}
+
+.users-list li .btn {
+    padding: 2px 8px;
+    margin-left: 4px;
+}
+
+.card-body {
+    padding: 5px;
+}
+
+.card-body hr {
+    border-color: #bdbdbd;
+    border-style: dashed;
+    margin: 0;
+}
+
+.card-body hr:last-child {
+    display: none;
+}
+
+.card-body .category p {
+    margin: 0;
+}
+
+.card-body .category {
+    position: relative;
+    padding: 15px;
+    /* hide the elementss outside this container */
+    overflow: hidden;
+}
+
+.card-body .category:hover {
+    background-color: #f0f0f0;
+}
+
+.hidden-btns {
+    position: absolute;
+    right: -160px;
+    top: 10px;
+    transition: right .7s ease-in-out;
+}
+
+.card-body .category:hover .hidden-btns {
+    right: 10px;
+}
+
+.hidden-btns .btn {
+    padding: 0px 5px;
+}
+
+.hidden-btns .btn i {
+    font-size: 14px;
+}
+
+.btn {
+    margin-bottom: 4px;
+}
+
+.ordering a {
+    text-decoration: none;
+}
+
+.ordering .active {
+    color: crimson;
+    font-weight: 600;
+}
+
+.add-cat {
+    margin: 10px 0;
+}
+
+
+/*add category*/
+
+.sub-cat {
+    margin-left: 30px;
+}
+
+.sub-cat p {
+    margin: 5px 0;
+    color: blueviolet;
+    font-weight: 600;
+}
+
+.sub-cat ul {
+    margin-bottom: 10px;
+}
+
+.sub-cat ul li .sub-delete {
+    margin: 10px;
+}
+
+.sub-cat ul li .sub-delete:hover {
+    color: crimson;
+}
+
+
+/*add category*/

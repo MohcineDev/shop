@@ -1,0 +1,45 @@
+db : shop
+    table1 : users
+        - id : int pk auto increment
+        - username : varchar(20) utf8_ge..
+        - password : vatvhar(20) utf8_ge..
+        - email  : vatvhar(20) utf8_ge..
+        - fullname : vatvhar(20) utf8_ge..
+        - groupId : int default value = 0  (admin, moderator)
+        - trustStatus : int default value = 0 (normal, trusted seller)
+        - registeredStatus : int default value = 0 (accepted, deny)
+         
+    table2 : Categories
+        - ID : tinyInt pk auto increment
+        - Name : varchar(50) utf8_ge.. unique
+        - Description : text utf8_ge..
+        - Oerdering : int custome order by
+        - Visibility : tinyInt default 0 (0:visible, 1:not visible)
+        - AllowCommment : tinyInt default 0
+        - AllowAds
+        
+    table3 :items
+        - item_ID int pk auto increment
+        - Name  varchar(50) utf8_ge..
+        - Description  text utf8_ge..
+        - Price  varchar(50) utf8_ge..
+        - Add_Date date
+        - Country_Made  varchar(50) utf8_ge..
+        - Image  varchar(50)
+        - Status  varchar(50) utf8_ge..
+        - Rating smallint
+        - Cat_ID
+        - Member_ID
+
+        alter table .. add constraint ..
+        foreign key(..) references ..(...)
+        on update cascade
+        on delete cascade
+    
+    table4 : Comments (6)
+        - Id int pk auto increment
+        - Comment text utf8_ge..
+        - Status tinyInt
+        - com_date date
+        - item_id int foreign key 
+        - user_id int foreign key
